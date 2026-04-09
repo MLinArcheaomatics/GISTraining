@@ -29,8 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PROTECTED_DIR: _site
-      PASSWORD: gis
-      # PASSWORD: ${{ secrets.YOUR_SECRET }}
+      #PASSWORD: gis
+      PASSWORD: ${{ secrets.PASSWORD }}
     steps:
       - name: Check PASSWORD variable
         run: |
