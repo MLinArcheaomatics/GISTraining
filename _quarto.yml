@@ -1,17 +1,21 @@
 project:
-  type: website
+  type: book
 
-website:
-  title: "Intro to GIS (using QGIS)"
-  navbar:
-    left:
+book:
+  title: "Intro to GIS Training (for Cultural Heritage)"
+  author: "Martin Tomko and Brian Armstrong"
+  chapters:
       - index.qmd
       - about.qmd
-  
+      - whygis.qmd
+      - part: "GIS I - Introduction to QGIS"
+        chapters:
+          - GISI/Install_QGIS.qmd
 execute: 
   freeze: true
 
 date-format: "DD MMMM YYYY"
 
 format:
-  html: default
+  html: 
+    theme: cosmo
