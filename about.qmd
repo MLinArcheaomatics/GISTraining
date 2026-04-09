@@ -1,5 +1,7 @@
 ---
-title: About
+title: Introduction to GIS (Using QGIS)
 ---
 
-This is a another test page.
+# Welcome to GIS!
+
+This is an introductory GIS training, developed with, and for, communities.
