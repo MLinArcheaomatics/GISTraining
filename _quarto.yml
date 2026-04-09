@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: _site
 
 book:
   title: "Intro to GIS Training (for Cultural Heritage)"
