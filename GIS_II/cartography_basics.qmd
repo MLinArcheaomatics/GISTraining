@@ -1,5 +1,5 @@
 ---
-title: Basic mapmaking with QGIS
+title: Basic Mapmaking with QGIS
 ---
 
 ## What is cartography?
