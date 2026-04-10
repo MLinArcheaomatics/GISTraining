@@ -58,7 +58,7 @@ jobs:
       - name: Install Staticrypt
         run: npm install -g staticrypt
       - name: Encrypt Pages
-        run: staticrypt $PROTECTED_DIR/* -r -d "$PROTECTED_DIR" -p "$PASSWORD" --short
+        run: staticrypt $PROTECTED_DIR/* -r -d "$PROTECTED_DIR" -p "$PASSWORD" --short --remember 7 --salt 0123456789abcdef0123456789abcdef
 
       - name: Fix permissions
         run: |
