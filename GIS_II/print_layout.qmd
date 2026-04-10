@@ -1,0 +1,32 @@
+---
+title: Preparing maps for printing
+---
+
+## Setting up a print layout
+
+## Adding map content (BOLTSS)
+
+### Adding the maps
+
+### Adding map *B*order
+
+### Adding map *O*rientation (north arrow or grid)
+
+### Adding *O*verview map (optional)
+
+### Adding map *L*egend
+
+### Adding *T*ext and other annotations (*S*ources)
+
+### Adding a *S*cale bar
+
+
+## Tricks: Using map themes
+
+### Install the map themes plugin
+
+### Create map themes for different map content
+
+### Re-style your Overview map using a different map theme
+
+## Exporting a map for printing

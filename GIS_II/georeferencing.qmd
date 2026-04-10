@@ -1,0 +1,9 @@
+---
+title: Georeferencing old maps
+---
+
+## What is georeferencing?
+
+## Scanning and preparing a map for georeferencing
+
+## Georeferencing in QGIS

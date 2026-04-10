@@ -1,0 +1,13 @@
+---
+title: Data editing and attribute tables
+--- 
+
+## What data do we want to collect?
+
+We have done some georeferencing and digitising. We now may want to collect data from the georeferenced maps. 
+
+We also may want to import data from other sources ( a GPS), or modify data provided by others ( for instance, to indicate the need for an alteration to a plan).
+
+## Collecting geometries
+
+## Editing attributes

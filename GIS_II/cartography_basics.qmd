@@ -1,0 +1,18 @@
+---
+title: Basic mapmaking with QGIS
+---
+
+## What is cartography?
+
+## Putting lipstick on data: styling and symbology
+
+## How to change the symbology of a layer
+
+### How to change the colour scheme of a layer
+
+### How to change the size of symbols on a layer
+
+### How to change the shape of symbols on a layer
+
+### How to change the transparency of a layer
+
