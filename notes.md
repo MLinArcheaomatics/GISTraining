@@ -19,20 +19,22 @@ Content desiderata
 
 - File types and why they matter/differ.
 - How to use a zipped shapefile to only obtain data relevant to the project (or KML depending on the source).
-
+- Data from the field: Importing an excel CSV file as an Open Source Layer - what's required in the spreadsheet and how to use it in QGIS.
 
 
 ### Vector tool basics:
 
 - How to create shapefiles for polygons, lines, and point data (editing)
 - How to use geoprocessing tools - particularly to make buffers and clip extents.
-- Symbology. 
+- Symbology. Indigenous icons. 
 - How to add geometry attributes and/or find a specific coordinate.
 - Filtering large datasets and/or using selection criteria.
 
+
+
+
 ### How to take data from the field and turn it into useable spatial data for mapping:
 
-- Importing an excel CSV file as an Open Source Layer - what's required in the spreadsheet and how to use it in QGIS.
 - For defining places - how to turn point data into a place extent and/or calculating tree ERZ etc. (I can provide more detail on what's required for this in a heritage management context).
 - How to georeference historic/mud maps and/or unreferenced old aerial imagery.
 - How to map from Elder knowledge - I could put together an example or case study for people to work through and then compare what everybody comes up with based on the (fake or real) knowledge.

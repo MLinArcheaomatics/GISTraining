@@ -1,0 +1,22 @@
+# Setting up your own project
+
+We will try to replicate the project you have just explored.
+
+<!-- - Projections and why they matter.
+- Where to get ready-made data from.
+- Basemaps and linking XYZ Tiles / WMS Connections.
+- Layer order, groups -->
+
+## Setting up a folder and file system
+
+## Opening a new project
+
+## Setting up project properties
+
+## Add a basemap
+
+## Add some ready-made data
+
+## Add data from local storage
+
+## Re-ordering data and creating groups
