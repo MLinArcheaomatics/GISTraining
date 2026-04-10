@@ -1,0 +1,18 @@
+# Working with QGIS Projects
+
+## What is a QGIS project?
+
+
+## Open a sample project
+
+## Find information about your project
+
+<!-- Name, projection ,possibly author-->
+
+
+## 
+
+<!-- TODO: Add instructions for opening a sample project -->
+<!-- - How QGIS links into live documents (i.e. warning not to move source files around or information on how to update source locations if you do need to move things).
+- Finding information in a project (find a location, find a feature of given value, get info about features at location (i) tool)
+- Metadata and crediting.--> 
