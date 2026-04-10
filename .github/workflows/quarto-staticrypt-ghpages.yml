@@ -66,7 +66,8 @@ jobs:
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5
+        # below will need updating once https://github.com/actions/upload-pages-artifact/issues/142 is solved
+        uses: actions/upload-pages-artifact@v4 
         with:
           path: ${{env.PROTECTED_DIR}}
 
