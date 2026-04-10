@@ -12,6 +12,12 @@ book:
       - part: "GIS I - Introduction to QGIS"
         chapters:
           - GISI/install_QGIS.qmd
+          - GISI/open_project.qmd
+          - GISI/project_setup.qmd
+          - GISI/data_work.qmd
+      - part: "GIS II - Basic mapmaking with QGIS"
+        chapters:
+          - GISI/install_QGIS.qmd
 execute: 
   freeze: true
 

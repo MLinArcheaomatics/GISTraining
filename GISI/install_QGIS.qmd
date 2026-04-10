@@ -1,4 +1,6 @@
-# First steps - Installing QGIS
+---
+title: Installing and exploring QGIS
+---
 
 ## Download and Install QGIS
 

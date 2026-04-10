@@ -1,12 +1,15 @@
 ---
-title: Introduction to GIS (Using QGIS)
+title: Using this website
 ---
-
-# Welcome to GIS!
 
 This is an introductory GIS training, developed with, and for, communities.
 
 Each chapter should span about 30 minutes of instruction, including about 15 minutes of hands-on practice, making two chapters per block. 
 
+This is a resource to be used in class, with instructors, and also to be re-visited by students on their own. The content is designed to be used in a workshop setting, but is usable as a self-paced resource.
 
-The whole single-day part of the course should take about 4 hours to complete with about 4 shorter breaks (15 mins) and a one hour lunch break. The course is designed to be self-paced, but you can also use it in a workshop setting.
+The basic single-day part of the course should take about 4 hours to complete with about 4 shorter breaks (15 mins) and a one hour lunch break. 
+
+A second day of the course can be added with more advanced topics, of the same length and structure. This includes more information on cartographic production.
+
+Additional topics can be added in based on interest and needs of participants.

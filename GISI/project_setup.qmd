@@ -1,4 +1,7 @@
-# Setting up your own project
+---
+title: Setting up your own project
+---
+
 
 We will try to replicate the project you have just explored.
 
@@ -15,8 +18,4 @@ We will try to replicate the project you have just explored.
 
 ## Add a basemap
 
-## Add some ready-made data
 
-## Add data from local storage
-
-## Re-ordering data and creating groups

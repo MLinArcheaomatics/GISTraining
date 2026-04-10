@@ -2,4 +2,7 @@
 title: Home
 ---
 
-This is a test repo
+A repository of GIS training modules for short community courses introducing geospatial technologies.
+
+
+

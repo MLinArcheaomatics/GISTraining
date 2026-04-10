@@ -1,0 +1,11 @@
+---
+title: Working with data
+---
+
+## Add some ready-made data
+
+## Add data from local storage
+
+## Re-ordering data and creating groups
+
+## Theory - Vectors and Rasters
