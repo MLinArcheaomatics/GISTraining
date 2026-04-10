@@ -12,11 +12,10 @@ The interface of QGIS is rich and complex. The main documentation of the interfa
 
 The main parts are:
 
-![](https://docs.qgis.org/3.44/en/_static/desktop_interface.png)
+![Interface](https://docs.qgis.org/3.44/en/_images/startup.png)
 
-- The Menu bar at the top of the screen, which contains all the functions of QGIS;
-- The Toolbars, which contain shortcuts to the most commonly used functions (this content can be modified);
-- The Map View (where the map is displayed);
-- The Browser Panel, which allows you to navigate your files and databases;
-- The Layers Panel, which shows the layers currently loaded in the project and allows you to manage them;
-- The Status Bar at the bottom of the screen, which shows information about the current map view and the project.
+1. The Menu bar at the top of the screen, which contains all the functions of QGIS;
+2. The Toolbars, which contain shortcuts to the most commonly used functions (this content can be modified);
+3. The Panels: Browser Panel, which allows you to navigate your files and databases, the the Layers Panel, which shows the layers currently loaded in the project and allows you to manage them, and the Processing Toolbox, which contains a large number of geoprocessing tools;
+4. The Map View (where the map is displayed);
+5. The Status Bar at the bottom of the screen, which shows information about the current map view and the project.
