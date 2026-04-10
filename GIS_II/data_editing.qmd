@@ -11,3 +11,4 @@ We also may want to import data from other sources ( a GPS), or modify data prov
 ## Collecting geometries
 
 ## Editing attributes
+
