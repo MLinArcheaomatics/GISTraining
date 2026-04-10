@@ -1,1 +1,22 @@
-# Installing QGIS
+# First steps - Installing QGIS
+
+## Download and Install QGIS
+
+Please follow the official documentation of QGIS for installation [here](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/getting_started.html#installing-qgis). 
+
+You can also try the net step in the guide, *Statring and stopping QGIS*
+
+## Get to know the interface
+
+The interface of QGIS is rich. The main documentation of the interface is [here](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/qgis_gui.html).
+
+The main parts are:
+
+![](https://docs.qgis.org/3.44/en/_static/desktop_interface.png)
+
+- The Menu bar at the top of the screen, which contains all the functions of QGIS;
+- The Toolbars, which contain shortcuts to the most commonly used functions (this content can be modified);
+- The Map View (where the map is displayed);
+- The Browser Panel, which allows you to navigate your files and databases;
+- The Layers Panel, which shows the layers currently loaded in the project and allows you to manage them;
+- The Status Bar at the bottom of the screen, which shows information about the current map view and the project.
