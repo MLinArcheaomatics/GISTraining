@@ -8,7 +8,7 @@ You can also try the net step in the guide, *Statring and stopping QGIS*
 
 ## Get to know the interface
 
-The interface of QGIS is rich. The main documentation of the interface is [here](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/qgis_gui.html).
+The interface of QGIS is rich and complex. The main documentation of the interface is [here](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/qgis_gui.html).
 
 The main parts are:
 

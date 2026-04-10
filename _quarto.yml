@@ -11,7 +11,7 @@ book:
       - whygis.qmd
       - part: "GIS I - Introduction to QGIS"
         chapters:
-          - GISI/Install_QGIS.qmd
+          - GISI/install_QGIS.qmd
 execute: 
   freeze: true
 
