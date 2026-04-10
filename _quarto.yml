@@ -22,7 +22,7 @@ book:
           - GIS_II/data_editing.qmd
           - GIS_II/print_layout.qmd
 execute: 
-  freeze: true
+  freeze: false
 
 date-format: "DD MMMM YYYY"
 

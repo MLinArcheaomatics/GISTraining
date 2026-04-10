@@ -48,6 +48,8 @@ jobs:
 
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+      - name: Clean site
+        run: rm -rf _site
       - name: Render Quarto Project
         uses: quarto-dev/quarto-actions/render@v2
 
