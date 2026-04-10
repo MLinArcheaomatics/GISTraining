@@ -19,7 +19,7 @@ book:
         chapters:
           - GIS_II/cartography_basics.qmd
           - GIS_II/georeferencing.qmd
-          - GIS_II/data_editing
+          - GIS_II/data_editing.qmd
           - GIS_II/print_layout.qmd
 execute: 
   freeze: true
