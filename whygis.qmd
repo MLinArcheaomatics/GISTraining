@@ -1,1 +1,9 @@
-# Why GIS?
+---
+title: Why GIS?
+---
+
+## What is GIS?
+
+## What can I use GIS for?
+
+## Is GIS culturally safe?
