@@ -54,7 +54,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24.x
       - name: Install Staticrypt
         run: npm install -g staticrypt
       - name: Encrypt Pages
