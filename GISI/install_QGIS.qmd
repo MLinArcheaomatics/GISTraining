@@ -6,7 +6,7 @@ title: Installing and exploring QGIS
 
 Please follow the official documentation of QGIS for installation [here](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/getting_started.html#installing-qgis). 
 
-Go to [qgis.org/download](https://gqis.org/download) and select the version 3.44 (Long Term Release) for your operating system (Windows/Mac).
+Go to [qgis.org/download](https://qgis.org/download) and select the version 3.44 (Long Term Release) for your operating system (Windows/Mac).
 
 ![Download QGIS](../figs/GISI/install/download.png)
 
