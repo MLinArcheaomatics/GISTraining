@@ -4,26 +4,50 @@ title: Working with QGIS Projects
 
 ## What is a QGIS project?
 
+A QGIS project (.qgs or .qgz) is a saved workspace file that acts as a container for your mapping session, storing layer references, styling, map layouts, and system settings
 
 ## Open a sample project
 
+Use the Project > Open menu, double-click a .qgz or .qgs file in your file manager, or select it from the "Recent Projects" list on the home screen.
+
+![QGIS Start Screen](../figs/GISI/Working_with_QGIS_Projects/Opening_ Screen.png)
+
 ## Find information about your project
+
+Project Properties (Ctrl+Shift+P): Navigate to Project > Properties to find the project's Coordinate Reference System (CRS), general settings, project title, and default styles.
+
+KEY TIP: Check the Coordinate Reference System (CRS)/EPSG code of the project to the CRS/EPSG you want to use. For Wurundjeri Country use GDA2020 (Geocentric Datum of Australia 2020), although older datasets may use GDA94.
+
+![QGIS Project Properties](../figs/GISI/Working_with_QGIS_Projects/Project _Properties.png)
+
+Layer Properties: Double-click on any layer in the Layers Panel or right-click and select Properties to view specific information about that layer.
+
+![QGIS Layer Properties](../figs/GISI/Working_with_QGIS_Projects/Layer_Properties.png)
 <!-- Name, projection ,possibly author-->
 
 ## Find information about your data
+
+![QGIS Information Icon](../figs/GISI/Working_with_QGIS_Projects/information.png)
+
+Attributes Toolbar: Look for the icon with a small white "i" inside a blue circle.
+Menu Bar: Navigate to View > Identify Features.
+Keyboard Shortcut: Press Ctrl + Shift + I
 
 ### What are the coordinates of **this** point?
 <!-- - How to find the coordinates of a point on the map (i.e. using the "Identify Features" tool) -->
 
 ### What is **here**?
 
+use the Identify Features tool and click the point to see its location under the "Derived" section in the results panel.
 <!-- - How to find the attributes of a feature at this point (i.e. using the "Identify Features" tool) -->
 
 ### Where is **this** feature?
 
+Open the Attribute Table: Right-click your layer in the Layers Panel and select Open Attribute Table (or hit F6)
+
+Go to [https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html]
+
 <!-- - How to find the location of a feature with a given attribute value (i.e. using the "Attributes table" tool) -->
-
-
 
 <!-- TODO: Add instructions for opening a sample project -->
 <!-- - How QGIS links into live documents (i.e. warning not to move source files around or information on how to update source locations if you do need to move things).

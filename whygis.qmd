@@ -4,6 +4,29 @@ title: Why GIS?
 
 ## What is GIS?
 
+GIS (Geographic Information System) is a computer framework used to capture, manage, analyse, and visualise data that is linked to a specific location on the Earth's surface.
+
+While a traditional map might just show you where a road is, a GIS allows you to click on that road and see detailed attributes like its name, traffic volume, or maintenance history.
+
 ## What can I use GIS for?
 
+GIS is a powerful tool for connecting spatial data with traditional knowledge to protect and manage land and heritage.
+
+Aboriginal communities and Traditional Owners use GIS as a medium for self-determination and cultural preservation.
+
 ## Is GIS culturally safe?
+
+It is a tool that can be used in culturally safe or unsafe ways depending on how it is governed and who holds the power. While GIS offers powerful benefits for land management and heritage protection, it also presents significant risks to Indigenous Data Sovereignty (IDS) if not handled with care.
+
+## What factors can enable cultural saftey?
+
+Indigenous Data Sovereignty (IDS): This is the right of Aboriginal and Torres Strait Islander people to govern the collection, ownership, and application of data about their communities and lands.
+
+Indigenous Data Governance: Implementing frameworks ensures that data usage reflects Indigenous priorities and values.
+
+Participatory Mapping: Centering Traditional Owner leadership in the mapping process ensures that research aligns with cultural protocols.
+
+Technical Safeguards: Using specialised tools for Geomasking (obfuscating exact locations to the public) and encryption ensures sensitive data remains protected.
+
+Local Contexts Labels: Using Local Contexts Traditional Knowledge and Cultural Notice Labels helps communities communicate their protocols for the use of digital data.
+

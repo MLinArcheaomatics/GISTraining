@@ -6,6 +6,18 @@ title: Setting up your own project
 We will try to replicate the project you have just explored.
 
 <!-- - Projections and why they matter.
+In Victoria, map projections are mathematical tools used to flatten the Earth’s curved surface into a 2D map. Choosing the right one is critical because every projection introduces some level of distortion in distance, area, or shape. 
+Using the wrong projection can lead to significant errors in measurement and data alignment—for example, a "gap" of roughly 1.8 metres exists between older GDA94 and modern GDA2020 datasets.
+VicGrid2020 (EPSG: 7899): This is a "Lambert Conformal Conic" projection specifically designed for Victoria.
+Why it matters: It is the most accurate choice for state-wide mapping. It minimises distortion across the entire state into a single zone, making it ideal for government planning and environmental analysis.
+MGA2020 (Zones 54 and 55): Part of the "Map Grid of Australia," this uses a Universal Transverse Mercator (UTM) projection.
+Why it matters: It is best for high-precision local work like surveying or construction. Victoria is split into two zones: Zone 54 (Western Vic) and Zone 55 (Melbourne and Eastern Vic). It keeps local measurements highly accurate but can cause "tears" if your project spans both zones.
+Web Mercator (EPSG: 3857): The standard projection for Google Maps and other web platforms.
+Why it matters: It is used for web-based visualisation. While convenient for browsing, it significantly distorts distance and area as you move away from the equator, so it should not be used for professional spatial analysis or surveying.
+Data Alignment: If you mix data from the older GDA94 datum with the new GDA2020 datum without a proper transformation, your maps will be misaligned by about 1.5 to 1.8 metres. This could result in a fence line being placed in the middle of a road.
+Accuracy in Measurement: In a projection like MGA2020, 1 metre on your screen is very close to 1 metre on the ground. In Web Mercator, that same "metre" could be significantly off depending on your latitude.
+State-wide vs Local: VicGrid allows you to look at the whole state as one continuous map without "zone boundaries" causing issues, whereas MGA provides higher accuracy for a specific town or suburb.
+
 - Where to get ready-made data from.
 - Basemaps and linking XYZ Tiles / WMS Connections.
 - Layer order, groups -->
@@ -18,4 +30,13 @@ We will try to replicate the project you have just explored.
 
 ## Add a basemap
 
+Victorian Specific Datasets
+https://opendata.maps.vic.gov.au/geoserver/ows?service=WFS&request=getCapabilities
+
+Add a basemap via X,Y,Z
+Addresses:
+Google Satellite: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
+Google Maps (Roadmap): https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}
+Google Hybrid (Satellite + Roads): https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}
+Google Terrain: https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}
 
