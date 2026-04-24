@@ -28,5 +28,5 @@ Participatory Mapping: Centering Traditional Owner leadership in the mapping pro
 
 Technical Safeguards: Using specialised tools for Geomasking (obfuscating exact locations to the public) and encryption ensures sensitive data remains protected.
 
-Local Contexts Labels: Using Local Contexts Traditional Knowledge and Cultural Notice Labels helps communities communicate their protocols for the use of digital data.
+Local Contexts Labels: Using Local Contexts, Traditional Knowledge and Cultural Notice Labels helps communities communicate their protocols for the use of digital data.
 
