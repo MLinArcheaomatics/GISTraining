@@ -2,7 +2,11 @@
 title: Using this website
 ---
 
+## Scope
+
 This is an introductory GIS training, developed with, and for, communities.
+
+## Structure and delivery
 
 Each chapter should span about 30 minutes of instruction, including about 15 minutes of hands-on practice, making two chapters per block. 
 
@@ -13,3 +17,26 @@ The basic single-day part of the course should take about 4 hours to complete wi
 A second day of the course can be added with more advanced topics, of the same length and structure. This includes more information on cartographic production.
 
 Additional topics can be added in based on interest and needs of participants.
+
+## Materials
+
+Materials are meant to be high level only - provide a scaffolding for the interactive course, and allow participants to go through the course again at a later stage, to refresh their memory.
+
+Often, the materials will link to other resources, such as the main QGIS website, and videos, blogs, or other resources to provide more information on a topic. beware, these may sometimes disappear - let us know is a link is dead.
+
+## Learning by doing
+
+The material is designed to be used in an interactive workshop setting, with a lot of hands-on practice. The best way to learn is by doing, and the materials are designed to encourage this. We will add sections for practice exercises:
+
+::: {.callout-tip title="Your Turn"}
+Try this excercise:...
+:::
+
+Answers may be provided in a separate section, or may be discussed in class. You should try the exercises on your own first, and then check the answers if you get stuck.
+
+::: {.callout-caution title="Answers" collapse="true"}
+This is an answer. 
+:::
+
+
+## Feedback

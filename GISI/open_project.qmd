@@ -12,11 +12,51 @@ Use the Project > Open menu, double-click a .qgz or .qgs file in your file manag
 
 ![QGIS Start Screen](../figs/GISI/Working_with_QGIS_Projects/Opening_ Screen.png)
 
+
+::: {.callout-tip title="Your Turn"}
+Open the demo project provided for this course. The project file and data are located in the Demo_project folder. The project file is named `demo_project.qgz`. Open this file in QGIS to explore the layers and settings.
+:::
+
+
 ## Find information about your project
 
-Project Properties (Ctrl+Shift+P): Navigate to Project > Properties to find the project's Coordinate Reference System (CRS), general settings, project title, and default styles.
+### Navigate the opened project
 
-KEY TIP: Check the Coordinate Reference System (CRS)/EPSG code of the project to the CRS/EPSG you want to use. For Wurundjeri Country use GDA2020 (Geocentric Datum of Australia 2020), although older datasets may use GDA94.
+First, we will attempt to move around the project. 
+
+Use the Pan tool (hand icon) to click and drag the map to move it around. Use the Zoom In and Zoom Out tools (magnifying glass icons) to zoom in and out of the map. You can also use the mouse scroll wheel to zoom in and out. 
+
+::: {.callout-tip title="Your Turn"}
+1. Find an area of interest in the project. 
+2. Zoom in and out. Pan around at a constant zoom level. Can you tell where you are on the map and what the zoom level is?
+:::
+
+The content of the data can be very rich, and is organised in layers. Each layer has its own content and representeation.
+
+::: {.callout-tip title="Your Turn"}
+3. What layers do you have? 
+4. Can you change the order of these layers? What happens when you change the order?
+5. Maybe there is too much information. Can you turn some layers on/off?
+:::
+
+### Properties of a project and its layers
+
+There are many properties that a project can set. We will only discuss the most important ons for now:
+
+- Units of the project ( e.g. meters, feet, degrees)
+- Coordinate Reference System (CRS) of the project
+
+**Project Properties (Ctrl+Shift+P):** Navigate to Project > Properties, and explore the General and CRS tabs.
+
+
+::: {.callout-tip title="Your Turn"}
+6. What is the Coordinate reference system of the project? For Wurundjeri Country use GDA2020 (Geocentric Datum of Australia 2020)/MGA Zone 55 (EPSG:7855), or /VIcGrid (EPSG:7899), although older datasets may use GDA94/VicGrid (EPSG:3111).
+7. What units are default for your QGIS project?
+8. Can you set the title of the project? Can you set the author of the project?
+:::
+
+
+
 
 ![QGIS Project Properties](../figs/GISI/Working_with_QGIS_Projects/Project _Properties.png)
 
@@ -45,7 +85,15 @@ use the Identify Features tool and click the point to see its location under the
 
 Open the Attribute Table: Right-click your layer in the Layers Panel and select Open Attribute Table (or hit F6)
 
-Go to [https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html]
+Check the official documentation in the QGIS  [https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html](maual).
+
+
+::: {.callout-tip title="Your Turn"}
+1. Where do you find a function to pan (move the map left and right, up and down?
+2. How can you zoom the map? Is there a way to zoom without using the icon?
+:::
+
+
 
 <!-- - How to find the location of a feature with a given attribute value (i.e. using the "Attributes table" tool) -->
 
