@@ -47,9 +47,15 @@ Coordinate Reference System (CRS): Navigate to the CRS tab to define how your da
 
 General Settings: Under the General tab, you can set the Project Title, background color, and selection color. This is also where you define the Project Home, which makes file management easier by using relative paths.
 
+![General Settings](../figs/GISI/Project_Setup/General.png)
+
 View Settings: In the View Settings tab, you can define the Project Full Extent. This allows you to quickly zoom back to your primary area of interest using the "Zoom Full" tool.
 
+![View Settings Tab](../figs/GISI/Project_Setup/View_Settings.png)
 Data Sources: Use the Data Sources tab to manage how layers are handled, such as making specific layers read-only or hiding them from the legend.
+
+![Data Sources Tab](../figs/GISI/Project_Setup/Data_S.png)
+
 
 KEY TIPS:
 Add Favorites: In the Browser Panel, right-click a folder and select "Add as Favorite" for instant access.
