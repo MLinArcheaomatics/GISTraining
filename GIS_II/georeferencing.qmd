@@ -75,11 +75,11 @@ You will be prompted to save the georeferenced image. You can choose a name and 
 
 Move the map to the bottom of the Layers Panel, so that it is below the georeferenced map you will add next.
 
-2. Open the Georeferencer tool, and add the 1838 historical map to georeference. YOu will find it under the /data folder/scans, and it is called "6006.png".
+2. Open the Georeferencer tool, and add the 1838 historical map to georeference. YOu will find it under the /data folder/scans, and it is called "6006_prov.tif".
 
 3. Add at least 4 control points, and georeference the map. You can use the OpenStreetMap base map as a reference map to find the same points on the historical map.
 
-4. Once you have georeferenced the map, add it to your project and explore it together with the OpenStreetMap base map. Can you find any features that still resemble the current state? You should end up with something like this:
+4. Once you have georeferenced the map, add it to your project (name it 6006_prov_modified.tif) and explore it together with the OpenStreetMap base map. Can you find any features that still resemble the current state? You should end up with something like this:
 
 ![Referenced map](../figs/GISII/georeferencing/referenced_map.png) 
 
