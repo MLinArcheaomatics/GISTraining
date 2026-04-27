@@ -10,7 +10,7 @@ Go to [qgis.org/download](https://qgis.org/download) and select the version 3.44
 
 ![Download QGIS](../figs/GISI/install/download.png)
 
-You can also try the net step in the guide, *Starting and stopping QGIS*
+You can also try the net step in the official guide, *Starting and stopping QGIS*
 
 ## Get to know the interface
 
@@ -25,3 +25,4 @@ The main parts are:
 3. The Panels: Browser Panel, which allows you to navigate your files and databases, the the Layers Panel, which shows the layers currently loaded in the project and allows you to manage them, and the Processing Toolbox, which contains a large number of geoprocessing tools;
 4. The Map View (where the map is displayed);
 5. The Status Bar at the bottom of the screen, which shows information about the current map view and the project.
+
