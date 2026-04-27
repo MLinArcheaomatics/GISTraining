@@ -74,11 +74,22 @@ Menu Bar: Navigate to View > Identify Features.
 Keyboard Shortcut: Press Ctrl + Shift + I
 
 ### What are the coordinates of **this** point?
+
+The Quick Peek (Status Bar)
+As you move your mouse over the map, look at the Coordinate box in the status bar at the very bottom of the screen.
+Pro Tip: If you see large numbers (e.g., 320500, 5812000), you are seeing Eastings/Northings (MGA). If you see small numbers (e.g., 144.9, -37.8), you are seeing Longitude/Latitude.
+
 <!-- - How to find the coordinates of a point on the map (i.e. using the "Identify Features" tool) -->
 
 ### What is **here**?
 
-use the Identify Features tool and click the point to see its location under the "Derived" section in the results panel.
+Use the Identify Features tool and click the point to see its location under the "Derived" section in the results panel.
+
+If you want coordinates for an existing object (like a specific building or property boundary):
+Select the Identify Features tool (the blue "i" icon in the top toolbar).
+Click on the object.
+In the Identify Results panel, expand the (Derived) section. You will see coordinates for the exact point you clicked, as well as the "Centroid" (the middle) of the object.
+
 <!-- - How to find the attributes of a feature at this point (i.e. using the "Identify Features" tool) -->
 
 ### Where is **this** feature?
