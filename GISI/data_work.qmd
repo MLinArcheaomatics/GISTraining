@@ -9,3 +9,14 @@ title: Working with data
 ## Re-ordering data and creating groups
 
 ## Theory - Vectors and Rasters
+
+Vector vs. Raster: Key Differences
+Vector data uses math to represent individual objects, while Raster data uses a grid of pixels to represent a continuous area.
+
+Choose Vector when precision and specific location data are key. It is the standard for urban planning, navigation, and boundary mapping.
+
+Choose Raster for broad environmental analysis. It is the best choice for satellite imagery, terrain modeling, and scientific modeling (like predicting floods).
+
+In a real QGIS project, you will almost always use both together. For example, you might place a Vector layer of site locations on top of a Raster satellite image to see how they align with the terrain.
+
+![The difference between Vector and Rasters](../figs/GISI/Working_With_Files/Raster_Vector.png)
