@@ -26,14 +26,15 @@ State-wide vs Local: VicGrid allows you to look at the whole state as one contin
 
 Setting up a folder and file system in QGIS is critical because project files (.qgz or .qgs) do not contain actual spatial data; they only store references to file paths on your computer.
 Recommended Project Structure:
-Project Root: Name this after your project (e.g., CHMP_Analysis_001/).
+
+Project Root: Name this after your project (e.g., GIS_Analysis_001/).
 /Data: Store all spatial datasets here. You may further divide this into:
 /Raw: Original, unmodified files.
 /Processed: Cleaned or clipped data.
 /Output: Store exported maps, PDFs, or final reports.
 /Scripts: For any Python scripts or processing models used.
 
-
+![Recommended Project Structure](../figs/GISI/Project_Setup/Recommended_FS.png)
 ## Opening a new project
 click Project in the top menu bar and select New, or click the New Project icon on the toolbar. For a fresh start, you can use the Ctrl+N (Windows/Linux) or Cmd+N (Mac) shortcut. It is recommended to immediately save the project (Project > Save).
 
@@ -41,6 +42,8 @@ click Project in the top menu bar and select New, or click the New Project icon 
 Setting up project properties in QGIS is essential for defining the spatial context and behavior of your map. You can access these settings by navigating to Project > Properties:
 
 Coordinate Reference System (CRS): Navigate to the CRS tab to define how your data is projected on the map canvas.For Wurundjeri Country use GDA2020 (Geocentric Datum of Australia 2020)/MGA Zone 55 (EPSG:7855), or /VicGrid (EPSG:7899), although older datasets may use GDA94/VicGrid (EPSG:3111).
+
+![Coordinate Reference System (CRS)](../figs/GISI/Project_Setup/Project_properties.png)
 
 General Settings: Under the General tab, you can set the Project Title, background color, and selection color. This is also where you define the Project Home, which makes file management easier by using relative paths.
 
@@ -54,7 +57,7 @@ Set Project Home: Go to Project > Properties > General and set the "Project Home
 Relative Paths: Ensure Project > Properties > General > Save Paths is set to "Relative". This allows the entire project folder to be moved or shared without breaking layer connections. 
 
 ## Add a basemap
-There are several options to add basemaps to your project, the easiest method is:
+There are several options to add basemaps to your project, the easiest method is to copy and paste the web addresses below into the URL connection Details:
 
 Add a basemap via X,Y,Z Option
 Google Satellite: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
@@ -62,6 +65,12 @@ Google Maps (Roadmap): https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}
 Google Hybrid (Satellite + Roads): https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}
 Google Terrain: https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}
 
+![Add a Basemap](../figs/GISI/Project_Setup/Add_XYZ.png)
+
 ## Add Victorian Datasets
-Victorian Specific Datasets
+Victorian Specific Datasets (copy and Paste link below into the URL of WMS/WMTS)
+
 https://opendata.maps.vic.gov.au/geoserver/ows?service=WFS&request=getCapabilities
+
+![Add a Victorian Data in QGIS](../figs/GISI/Project_Setup/Add_Local_Vic_Data.png)
+
