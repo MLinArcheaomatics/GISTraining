@@ -4,7 +4,27 @@ title: Working with data
 
 ## Add some ready-made data
 
+
+
 ## Add data from local storage
+
+There are two simple ways to add data from your computer to your QGIS project. We'll focus on vector data for now, as it's commonly used for features like points, lines, and areas on maps.
+
+### Method 1: Drag and Drop
+1. Open your computer's file explorer (Finder on Mac, File Explorer on Windows) and navigate to the data file you want to add.
+2. Click and hold the file, then drag it onto the QGIS map canvas (the main map area).
+3. Release the mouse button. The layer will appear in the Layers panel on the right side of the screen. The appearance may vary depending on the file type (e.g., points might show as dots, lines as paths).
+
+### Method 2: Using the Menu
+1. In the top menu bar, click **Layer** > **Add Layer** > **Add Vector Layer**.
+   ![Where to click to add a layer through the menu bar](../figs/GISI/Working_With_Files/add-layer-select.png)
+2. The Data Source Manager window will open. In the **Source** section, click the three dots (...) next to the file path box to browse your computer files.
+   ![How to get to your files from Data Source Manager](../figs/GISI/Working_With_Files/three-dots-to-files.png)
+3. Navigate to and select the file you want to add, then click **Open**.
+4. Click **Add** in the Data Source Manager to load the layer into your project. It will appear in the Layers panel.
+
+These methods work for common formats like Shapefiles (.shp), GeoJSON (.geojson), and others. If your data doesn't load, ensure it's a supported geographic format and try again.
+
 
 ## Re-ordering data and creating groups
 
