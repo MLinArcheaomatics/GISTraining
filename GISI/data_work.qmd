@@ -8,6 +8,32 @@ title: Working with data
 
 ## Re-ordering data and creating groups
 
+Re-ordering Layers: The "Stacking" Logic
+QGIS renders data from the bottom up. This means layers at the top of the list will cover layers underneath them.
+•	How to move them: Simply click and drag a layer up or down in the list.
+•	The Golden Rule of Stacking: To keep everything visible, follow this standard order:
+1.	Top: Points (small icons, easily covered).
+2.	Middle: Lines (roads, rivers).
+3.	Bottom: Polygons (land parcels, lakes).
+4.	Background: Rasters (satellite imagery, hillshades).
+
+2. Creating Groups: Bundling Your Data
+Groups allow you to collapse multiple layers into a single folder, keeping your workspace clean.
+•	To create a group: Right-click anywhere in the Layers Panel and select Add Group. You can then drag existing layers into it.
+•	Batch Visibility: Clicking the checkbox next to a Group name will turn all layers inside that group on or off at once. This is perfect for toggling between different "themes" (e.g., "Environmental Data" vs. "Infrastructure").
+•	Nesting: You can even create groups inside groups for complex projects with dozens of layers.
+
+3. Mutually Exclusive Groups (The "Radio Button" Trick)
+If you have multiple base maps (like Google Satellite and OpenStreetMap) and only want one visible at a time:
+1.	Put them in a group together.
+2.	Right-click the Group and select Mutually Exclusive Group.
+3.	Now, when you turn one layer on, the others in that group will automatically turn off.
+4. Renaming for Clarity
+
+Downloaded data often has cryptic names like TL_2023_06_ADDR.shp.
+•	Slow Double-Click (or press F2) on the layer name to rename it to something human-readable, like "City Addresses." This only changes the display name in QGIS, not the actual file on your hard drive.
+
+
 ## Theory - Vectors and Rasters
 
 Vector vs. Raster: Key Differences
