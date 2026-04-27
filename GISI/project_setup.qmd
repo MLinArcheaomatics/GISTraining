@@ -27,7 +27,7 @@ State-wide vs Local: VicGrid allows you to look at the whole state as one contin
 Setting up a folder and file system in QGIS is critical because project files (.qgz or .qgs) do not contain actual spatial data; they only store references to file paths on your computer.
 Recommended Project Structure:
 
-Project Root: Name this after your project (e.g., GIS_Analysis_001/).
+Project Root: Name this after your project (e.g., GIS_Analysis_001/)
 /Data: Store all spatial datasets here. You may further divide this into:
 /Raw: Original, unmodified files.
 /Processed: Cleaned or clipped data.
