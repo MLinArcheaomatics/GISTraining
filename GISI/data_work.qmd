@@ -4,6 +4,16 @@ title: Working with data
 
 ## Add some ready-made data
 
+First, add a basemap to your project. Since the XYZ layers are already set up, follow these steps:
+1. In the Browser panel, select **XYZ Tiles**.
+2. Double-click the layer you would like to use. It will appear in the Layers panel.
+
+Next, add data from the Victorian dataset that was connected in the previous section.
+1. In the top menu bar, click **Layer** > **Add Layer** > **Add WMS/WMTS Layer**.
+   ![Where to click to add a layer through the menu bar](../figs/GISI/Working_With_Files/add-wms-layer.png)
+2. In the Data Source Manager, select the Victorian dataset and click **Connect**.
+3. Search for the type of data you would like. For example, search for "river" and then select the layer you want to add.
+4. Click **Add** to load the selected layer into your project. It will appear in the Layers panel.
 
 
 ## Add data from local storage
@@ -17,7 +27,7 @@ There are two simple ways to add data from your computer to your QGIS project. W
 
 ### Method 2: Using the Menu
 1. In the top menu bar, click **Layer** > **Add Layer** > **Add Vector Layer**.
-   ![Where to click to add a layer through the menu bar](../figs/GISI/Working_With_Files/add-layer-select.png)
+   ![Where to click to add a layer through the menu bar](../figs/GISI/Working_With_Files/add-vector-layer.png)
 2. The Data Source Manager window will open. In the **Source** section, click the three dots (...) next to the file path box to browse your computer files.
    ![How to get to your files from Data Source Manager](../figs/GISI/Working_With_Files/three-dots-to-files.png)
 3. Navigate to and select the file you want to add, then click **Open**.
