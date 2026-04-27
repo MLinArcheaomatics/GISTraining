@@ -28,8 +28,8 @@ If you have multiple base maps (like Google Satellite and OpenStreetMap) and onl
 1.	Put them in a group together.
 2.	Right-click the Group and select Mutually Exclusive Group.
 3.	Now, when you turn one layer on, the others in that group will automatically turn off.
-4. Renaming for Clarity
 
+4. Renaming for Clarity
 Downloaded data often has cryptic names like TL_2023_06_ADDR.shp.
 •	Slow Double-Click (or press F2) on the layer name to rename it to something human-readable, like "City Addresses." This only changes the display name in QGIS, not the actual file on your hard drive.
 
