@@ -22,21 +22,46 @@ State-wide vs Local: VicGrid allows you to look at the whole state as one contin
 - Basemaps and linking XYZ Tiles / WMS Connections.
 - Layer order, groups -->
 
-## Setting up a folder and file system
+## Setting up a folder and file system structure
+
+Setting up a folder and file system in QGIS is critical because project files (.qgz or .qgs) do not contain actual spatial data; they only store references to file paths on your computer.
+Recommended Project Structure:
+Project Root: Name this after your project (e.g., CHMP_Analysis_001/).
+/Data: Store all spatial datasets here. You may further divide this into:
+/Raw: Original, unmodified files.
+/Processed: Cleaned or clipped data.
+/Output: Store exported maps, PDFs, or final reports.
+/Scripts: For any Python scripts or processing models used.
+
 
 ## Opening a new project
+click Project in the top menu bar and select New, or click the New Project icon on the toolbar. For a fresh start, you can use the Ctrl+N (Windows/Linux) or Cmd+N (Mac) shortcut. It is recommended to immediately save the project (Project > Save).
 
 ## Setting up project properties
+Setting up project properties in QGIS is essential for defining the spatial context and behavior of your map. You can access these settings by navigating to Project > Properties:
+
+Coordinate Reference System (CRS): Navigate to the CRS tab to define how your data is projected on the map canvas.For Wurundjeri Country use GDA2020 (Geocentric Datum of Australia 2020)/MGA Zone 55 (EPSG:7855), or /VicGrid (EPSG:7899), although older datasets may use GDA94/VicGrid (EPSG:3111).
+
+General Settings: Under the General tab, you can set the Project Title, background color, and selection color. This is also where you define the Project Home, which makes file management easier by using relative paths.
+
+View Settings: In the View Settings tab, you can define the Project Full Extent. This allows you to quickly zoom back to your primary area of interest using the "Zoom Full" tool.
+
+Data Sources: Use the Data Sources tab to manage how layers are handled, such as making specific layers read-only or hiding them from the legend.
+
+KEY TIPS:
+Add Favorites: In the Browser Panel, right-click a folder and select "Add as Favorite" for instant access.
+Set Project Home: Go to Project > Properties > General and set the "Project Home" to your main folder. This makes it the default location for saving new layers.
+Relative Paths: Ensure Project > Properties > General > Save Paths is set to "Relative". This allows the entire project folder to be moved or shared without breaking layer connections. 
 
 ## Add a basemap
+There are several options to add basemaps to your project, the easiest method is:
 
-Victorian Specific Datasets
-https://opendata.maps.vic.gov.au/geoserver/ows?service=WFS&request=getCapabilities
-
-Add a basemap via X,Y,Z
-Addresses:
+Add a basemap via X,Y,Z Option
 Google Satellite: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
 Google Maps (Roadmap): https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}
 Google Hybrid (Satellite + Roads): https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}
 Google Terrain: https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}
 
+## Add Victorian Datasets
+Victorian Specific Datasets
+https://opendata.maps.vic.gov.au/geoserver/ows?service=WFS&request=getCapabilities

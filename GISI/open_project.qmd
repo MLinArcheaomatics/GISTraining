@@ -17,7 +17,6 @@ Use the Project > Open menu, double-click a .qgz or .qgs file in your file manag
 Open the demo project provided for this course. The project file and data are located in the Demo_project folder. The project file is named `demo_project.qgz`. Open this file in QGIS to explore the layers and settings.
 :::
 
-
 ## Find information about your project
 
 ### Navigate the opened project
@@ -41,7 +40,7 @@ The content of the data can be very rich, and is organised in layers. Each layer
 
 ### Properties of a project and its layers
 
-There are many properties that a project can set. We will only discuss the most important ons for now:
+There are many properties that a project can set. We will only discuss the most important ones for now:
 
 - Units of the project ( e.g. meters, feet, degrees)
 - Coordinate Reference System (CRS) of the project
