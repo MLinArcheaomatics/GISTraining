@@ -4,6 +4,83 @@ title: Georeferencing old maps
 
 ## What is georeferencing?
 
-## Scanning and preparing a map for georeferencing
+Georeferencing literally means "to give a location to something". In GIS, georeferencing is the process of assigning real-world coordinates to something referred to by a place name, or to placing a raster map (such as a scanned map or an aerial (drone) photograph). This allows the image to be used together with other spatial data in a GIS.
+
+## Acquiring a map for georeferencing
+
+You may get a map by 
+- Scanning a paper map (e.g. using a flatbed scanner)
+- Taking a photo of a map (e.g. using a smartphone camera)
+- Downloading a digital map (e.g. from a website)
+- Using a drone to take aerial photographs of an area.
+
+In general, you want images that are of good resolution ( typically at least 300 dpi) and that are not too distorted (e.g. due to folds, or scanning issues).
+
+**Note:** Some maps may already be georeferenced. CHeck first, to not duplicate efforts!
+
+It is recommended to use tiff format for georeferencing, as it is a lossless format that preserves the quality of the image. However, other formats such as JPEG or PNG can also be used, but they may result in a loss of quality.
+
+## Adding a georeferenced map to QGIS
+
+We will work with the 1838 historical map for the Greendale region. Have a look at the map [here](https://mapwarper.prov.vic.gov.au/maps/6006).
+
+::: {.callout-tip title="Your Turn"}
+1. Have a look around the map in the map viewer. What do you see? Can you find the Greendale region on the map? Can you find any features that may still resemble the current state?
+:::
+
+### Adding a map from a file
+
+
+
+To add a georeferenced map to QGIS, you can use the "Add Raster Layer" tool. This can be found in the Layer menu, or by clicking the "Add Raster Layer" button in the toolbar.
+
+
+
+### Adding a georeferenced map from PROV
+
+PROV (Public Records Office Victoria) has a large collection of georeferenced maps of Victoria, which can be accessed through their website [https://prov.vic.gov.au/maps](https://prov.vic.gov.au/maps). You can search for maps by location, date, or type. Once you find a map you want to use, you can download it in a georeferenced format (e.g. GeoTIFF) and add it to your QGIS project.
+
+
 
 ## Georeferencing in QGIS
+
+### Open a reference map
+
+This could be a current map of the area, or a georeferenced map that you have already added to your project. This will be used as a reference to georeference the new map.
+
+Second, you will need to add the map to georeference. This can be done by going to Raster > Georeferencer > Georeferencer. In the Georeferencer window, click on the "Open Raster" button and select the map you want to georeference.
+
+![Open raster](../figs/GISII/georeferencing/open_raster.png)
+
+Find a point in the historical map that you can also identify on the main map (e.g. a river, a road, a building). Click on the "Add Point" button in the Georeferencer toolbar, and click on the point in the historical map. The toolbar to add a point ( and edit, and move) is here: 
+
+![Control point editing](../figs/GISII/georeferencing/control_points.png)
+
+Then, click on the same point in the reference map to assign coordinates to it. YOu need to make sure you click "OK" in the window, otherwise the point does not get added. If you have too many QGIS windows open, you can switch between them using CTRL+"`" (the key above the Tab key on most keyboards. CMD on Mac).
+
+![Add control point](../figs/GISII/georeferencing/added_point.png)
+
+Repeat this process for at least 4 points (the more points you add, the better the georeferencing will be). You want to collect points around the whole map, well spaced. If you have collected points accurately, the "residual lines" (red lines) should be short. If you have a long red line, it means that the point is not well georeferenced, and you may want to delete it and add it again.
+
+![Residual lines](../figs/GISII/georeferencing/georeferencing_withpoints.png)
+
+Once you have added enough control points, you can click on the "Start Georeferencing" button in the toolbar to georeference the map (green "play" button). This will create a new georeferenced raster layer that you can add to your project.
+
+You will be prompted to save the georeferenced image. You can choose a name and location for the file, and select the format (e.g. GeoTIFF). Once you have saved the file, it will be added to your QGIS project as a new layer.
+
+![Georeferencer settings](../figs/GISII/georeferencing/run_georeferencer.png){width=50%}
+
+::: {.callout-tip title="Your Turn"}
+1. You can use the OpenStreetMap base map as a reference map. To add it to your project, go to the Browser Panel, and under XYZ Tiles, double-click on OpenStreetMap to add it to your project.
+
+Move the map to the bottom of the Layers Panel, so that it is below the georeferenced map you will add next.
+
+2. Open the Georeferencer tool, and add the 1838 historical map to georeference. YOu will find it under the /data folder/scans, and it is called "6006_prov.tif".
+
+3. Add at least 4 control points, and georeference the map. You can use the OpenStreetMap base map as a reference map to find the same points on the historical map.
+
+4. Once you have georeferenced the map, add it to your project (name it 6006_prov_modified.tif) and explore it together with the OpenStreetMap base map. Can you find any features that still resemble the current state? You should end up with something like this:
+
+![Referenced map](../figs/GISII/georeferencing/referenced_map.png) 
+
+:::
