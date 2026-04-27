@@ -36,9 +36,11 @@ Project Root: Name this after your project (e.g., GIS_Analysis_001/).
 
 ![Recommended Project Structure](../figs/GISI/Project_Setup/Recommended_FS.png)
 ## Opening a new project
-click Project in the top menu bar and select New, or click the New Project icon on the toolbar. For a fresh start, you can use the Ctrl+N (Windows/Linux) or Cmd+N (Mac) shortcut. It is recommended to immediately save the project (Project > Save).
+
+Click Project in the top menu bar and select New, or click the New Project icon on the toolbar. For a fresh start, you can use the Ctrl+N (Windows/Linux) or Cmd+N (Mac) shortcut. It is recommended to immediately save the project (Project > Save).
 
 ## Setting up project properties
+
 Setting up project properties in QGIS is essential for defining the spatial context and behavior of your map. You can access these settings by navigating to Project > Properties:
 
 Coordinate Reference System (CRS): Navigate to the CRS tab to define how your data is projected on the map canvas.For Wurundjeri Country use GDA2020 (Geocentric Datum of Australia 2020)/MGA Zone 55 (EPSG:7855), or /VicGrid (EPSG:7899), although older datasets may use GDA94/VicGrid (EPSG:3111).
