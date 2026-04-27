@@ -67,7 +67,7 @@ Layer Properties: Double-click on any layer in the Layers Panel or right-click a
 
 ## Find information about your data
 
-![QGIS Information Icon](../figs/GISI/Working_with_QGIS_Projects/Information.png)
+![QGIS Information Icon](../figs/GISI/Working_with_QGIS_Projects/Information.PNG)
 
 Attributes Toolbar: Look for the icon with a small white "i" inside a blue circle.
 Menu Bar: Navigate to View > Identify Features.
