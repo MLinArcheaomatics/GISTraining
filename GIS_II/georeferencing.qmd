@@ -50,25 +50,25 @@ This could be a current map of the area, or a georeferenced map that you have al
 
 Second, you will need to add the map to georeference. This can be done by going to Raster > Georeferencer > Georeferencer. In the Georeferencer window, click on the "Open Raster" button and select the map you want to georeference.
 
-![Open raster](../figs/GIS_II/georeferencing/open_raster.png)
+![Open raster](../figs/GISII/georeferencing/open_raster.png)
 
-Find a point in the historical map that you can also identify on the main map (e.g. a river, a road, a building). Click on the "Add Point" button in the Georeferencer toolbar, and click on the point in the historical map. 
+Find a point in the historical map that you can also identify on the main map (e.g. a river, a road, a building). Click on the "Add Point" button in the Georeferencer toolbar, and click on the point in the historical map. The toolbar to add a point ( and edit, and move) is here: 
 
-![Control point editing](../figs/GIS_II/georeferencing/control_point_editing.png)
+![Control point editing](../figs/GISII/georeferencing/control_points.png)
 
 Then, click on the same point in the reference map to assign coordinates to it. YOu need to make sure you click "OK" in the window, otherwise the point does not get added. If you have too many QGIS windows open, you can switch between them using CTRL+"`" (the key above the Tab key on most keyboards. CMD on Mac).
 
-![Add control point](../figs/GIS_II/georeferencing/added_point.png)
+![Add control point](../figs/GISII/georeferencing/added_point.png)
 
 Repeat this process for at least 4 points (the more points you add, the better the georeferencing will be). You want to collect points around the whole map, well spaced. If you have collected points accurately, the "residual lines" (red lines) should be short. If you have a long red line, it means that the point is not well georeferenced, and you may want to delete it and add it again.
 
-![Residual lines](../figs/GIS_II/georeferencing/georeferencing_withpoints.png)
+![Residual lines](../figs/GISII/georeferencing/georeferencing_withpoints.png)
 
 Once you have added enough control points, you can click on the "Start Georeferencing" button in the toolbar to georeference the map (green "play" button). This will create a new georeferenced raster layer that you can add to your project.
 
 You will be prompted to save the georeferenced image. You can choose a name and location for the file, and select the format (e.g. GeoTIFF). Once you have saved the file, it will be added to your QGIS project as a new layer.
 
-![Georeferencer settings](../figs/GIS_II/georeferencing/run_georeferencer.png)
+![Georeferencer settings](../figs/GISII/georeferencing/run_georeferencer.png){width=50%}
 
 ::: {.callout-tip title="Your Turn"}
 1. You can use the OpenStreetMap base map as a reference map. To add it to your project, go to the Browser Panel, and under XYZ Tiles, double-click on OpenStreetMap to add it to your project.
@@ -81,6 +81,6 @@ Move the map to the bottom of the Layers Panel, so that it is below the georefer
 
 4. Once you have georeferenced the map, add it to your project and explore it together with the OpenStreetMap base map. Can you find any features that still resemble the current state? You should end up with something like this:
 
-![Referenced map](../figs/GIS_II/georeferencing/referenced_map.png) 
+![Referenced map](../figs/GISII/georeferencing/referenced_map.png) 
 
 :::
