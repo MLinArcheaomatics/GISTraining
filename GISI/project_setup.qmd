@@ -61,7 +61,9 @@ Data Sources: Use the Data Sources tab to manage how layers are handled, such as
 
 KEY TIPS:
 Add Favorites: In the Browser Panel, right-click a folder and select "Add as Favorite" for instant access.
+
 Set Project Home: Go to Project > Properties > General and set the "Project Home" to your main folder. This makes it the default location for saving new layers.
+
 Relative Paths: Ensure Project > Properties > General > Save Paths is set to "Relative". This allows the entire project folder to be moved or shared without breaking layer connections. 
 
 ## Add a basemap
