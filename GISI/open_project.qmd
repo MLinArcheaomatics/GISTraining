@@ -66,7 +66,7 @@ Layer Properties: Double-click on any layer in the Layers Panel or right-click a
 
 ## Find information about your data
 
-![QGIS Information Icon](../figs/GISI/Working_with_QGIS_Projects/information.png)
+![QGIS Information Icon](../figs/GISI/Working_with_QGIS_Projects/Information.PNG)
 
 Attributes Toolbar: Look for the icon with a small white "i" inside a blue circle.
 Menu Bar: Navigate to View > Identify Features.
@@ -99,7 +99,7 @@ Check the official documentation in the QGIS  [https://docs.qgis.org/3.44/en/doc
 
 
 ::: {.callout-tip title="Your Turn"}
-1. Where do you find a function to pan (move the map left and right, up and down?
+1. Where do you find a function to pan (move the map left and right, up and down?)
 2. How can you zoom the map? Is there a way to zoom without using the icon?
 :::
 
