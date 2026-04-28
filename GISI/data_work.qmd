@@ -39,6 +39,7 @@ These methods work for common formats like Shapefiles (.shp), GeoJSON (.geojson)
 ## Re-ordering data and creating groups
 
 ### Re-ordering Layers: The Stacking Logic
+
 QGIS draws your map layers like stacking papers on a desk, the bottom layer is put down first, and layers on top can cover what's below. This means the order in your Layers panel matters for what you see on the map.
 - How to move them: Just click and drag any layer up or down in the Layers panel to change its position.
 - The Golden Rule of Stacking: To keep everything visible, arrange your layers in this order from top to bottom:
@@ -48,40 +49,37 @@ QGIS draws your map layers like stacking papers on a desk, the bottom layer is p
   4. Background: Rasters (images like satellite photos or shaded relief maps).
 
 ### Creating Groups: Bundling Your Data
+
 Groups help organize your layers by putting them into folders, making your Layers panel less cluttered and easier to manage.
+
 - To create a group: Right-click in the Layers panel and choose "Add Group." Then, drag layers into it like filing papers.
 - Batch Visibility: Check the box next to a group name to turn all its layers on or off together. This is handy for switching between topics, like showing "Environmental Data" or "Infrastructure" separately.
 - Nesting: You can put groups inside other groups for bigger projects with many layers.
 
 ### Mutually Exclusive Groups (The Radio Button Trick)
+
 If you have several background maps (like satellite views or street maps) and only want to show one at a time you can use this trick.
+
 1. Put the background maps into a single group.
 2. Right-click the group and select Mutually Exclusive Group.
 3. Now, turning one map on will automatically turn off the others in that group.
 
 ### Renaming for Clarity
+
 Data you download often has confusing names, like "TL_2023_06_ADDR.shp." Renaming them makes your project easier to understand.
-- Double-click slowly (or press F2) on a layer name in the Layers panel to edit it. Change it to something simple, like "City Addresses." This only updates the name in QGIS, it doesn't change the original file's name.
+
+Double-click slowly (or press F2) on a layer name in the Layers panel to edit it. Change it to something simple, like "City Addresses." This only updates the name in QGIS, it doesn't change the original file's name.
 
 
 ## Theory - Vectors and Rasters
 
-<<<<<<< HEAD
-Vector vs. Raster: The key differences are that
-Vector data uses math to represent individual objects, while Raster data uses a grid of pixels to represent a continuous area.
-=======
 ### Vector vs. Raster: Key Differences
 Think of your map data like two ways to draw a picture. Vector data uses precise math to show individual features, like dots for points, lines for paths, or shapes for areas. Raster data is like a digital photo—it's made of tiny colored squares (pixels) that cover a whole area smoothly.
->>>>>>> 9ff683bfea67ad1441594f0ded72cf3b80a00c04
 
 Choose Vector when you need exact details and locations, such as for planning cities, finding directions, or mapping property boundaries.
 
 Choose Raster for showing broad patterns across landscapes, like satellite images, elevation models, or flood prediction maps.
 
-<<<<<<< HEAD
-In a real QGIS project, you will almost always use both together. For example, you might place a Vector layer of archaeological site locations on top of a Raster satellite image to see how they align with the terrain.
-=======
 In most QGIS projects, you'll use both types together. For example, you could overlay vector points showing important sites on a raster satellite image to see how they fit into the landscape.
->>>>>>> 9ff683bfea67ad1441594f0ded72cf3b80a00c04
 
 ![The difference between Vector and Raster data](../figs/GISI/Working_With_Files/Raster_Vector.png)
