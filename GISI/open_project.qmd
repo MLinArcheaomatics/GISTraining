@@ -4,107 +4,133 @@ title: Working with QGIS Projects
 
 ## What is a QGIS project?
 
-A QGIS project (.qgs or .qgz) is a saved workspace file that acts as a container for your mapping session, storing layer references, styling, map layouts, and system settings
+A QGIS project is the file that saves your work in QGIS.
+It remembers:
+
+- the layers you have open
+- the map view and zoom level
+- styles and colours for your map
+- project settings such as units and coordinate system
+
+A project file usually ends in `.qgz` or `.qgs`.
 
 ## Open a sample project
 
-Use the Project > Open menu, double-click a .qgz or .qgs file in your file manager, or select it from the "Recent Projects" list on the home screen.
+To open the sample project:
+1. In QGIS, choose **Project > Open**.
+2. Find the `.qgz` or `.qgs` file you want.
+3. Double click the file and let QGIS load the map.
+
+You can also open a project by double-clicking the project file in your file manager or by choosing it from the **Recent Projects** list on the QGIS start screen.
 
 ![QGIS Start Screen](../figs/GISI/Working_with_QGIS_Projects/Opening_ Screen.png)
-
 
 ::: {.callout-tip title="Your Turn"}
 Open the demo project provided for this course. The project file and data are located in the Demo_project folder. The project file is named `demo_project.qgz`. Open this file in QGIS to explore the layers and settings.
 :::
 
-## Find information about your project
+## Explore the opened project
 
-### Navigate the opened project
+Once the project is open, start by moving around the map and looking at the main tools.
 
-First, we will attempt to move around the project. 
+### Move the map
 
-Use the Pan tool (hand icon) to click and drag the map to move it around. Use the Zoom In and Zoom Out tools (magnifying glass icons) to zoom in and out of the map. You can also use the mouse scroll wheel to zoom in and out. 
-
-::: {.callout-tip title="Your Turn"}
-1. Find an area of interest in the project. 
-2. Zoom in and out. Pan around at a constant zoom level. Can you tell where you are on the map and what the zoom level is?
-:::
-
-The content of the data can be very rich, and is organised in layers. Each layer has its own content and representeation.
+- Use the **Pan tool** (hand icon) to drag the map.
+- Use **Zoom In** and **Zoom Out** (magnifying glass icons) to change the scale.
+- You can also use the mouse scroll wheel to zoom in and out.
 
 ::: {.callout-tip title="Your Turn"}
-3. What layers do you have? 
-4. Can you change the order of these layers? What happens when you change the order?
-5. Maybe there is too much information. Can you turn some layers on/off?
+1. Find an area that looks interesting.
+2. Pan the map and zoom in and out.
+3. Can you tell where you are on the map?
 :::
 
-### Properties of a project and its layers
+### Work with layers
 
-There are many properties that a project can set. We will only discuss the most important ones for now:
+The map is made of layers. Each layer contains different information.
 
-- Units of the project ( e.g. meters, feet, degrees)
-- Coordinate Reference System (CRS) of the project
-
-**Project Properties (Ctrl+Shift+P):** Navigate to Project > Properties, and explore the General and CRS tabs.
-
+- Layers near the top appear above others.
+- Turning layers on and off changes what you see.
+- Changing the layer order can reveal or hide details.
 
 ::: {.callout-tip title="Your Turn"}
-6. What is the Coordinate reference system of the project? For Wurundjeri Country use GDA2020 (Geocentric Datum of Australia 2020)/MGA Zone 55 (EPSG:7855), or /VicGrid (EPSG:7899), although older datasets may use GDA94/VicGrid (EPSG:3111).
-7. What units are default for your QGIS project?
-8. Can you set the title of the project? Can you set the author of the project?
+4. What layers do you see in the Layers Panel?
+5. Try moving a layer up or down.
+6. Turn a layer off, then turn it back on.
 :::
 
+## Project properties and CRS
 
+QGIS saves important settings for the current project. Two key settings are:
 
+- **Units** (for example meters, feet, or degrees)
+- **Coordinate Reference System (CRS)**, which tells us how the map fits the real world
+
+Open these settings at **Project > Properties** or press **Ctrl+Shift+P**. Explore the **General** and **CRS** tabs.
 
 ![QGIS Project Properties](../figs/GISI/Working_with_QGIS_Projects/Project _Properties.png)
 
-Layer Properties: Double-click on any layer in the Layers Panel or right-click and select Properties to view specific information about that layer.
+### Check the project details
+
+- What CRS is the project using?
+- What units are shown?
+- Can you see the project title and author fields?
+
+::: {.callout-tip title="Your Turn"}
+Open Project Properties and note the CRS and units. If you are working on Wurundjeri Country, the project may use GDA2020 / MGA Zone 55 (EPSG:7855) or VicGrid (EPSG:7899).
+:::
+
+## Layer properties
+
+Each layer also has its own settings.
+
+To view them:
+
+- double-click a layer in the Layers Panel, or
+- right-click a layer and choose **Properties**.
 
 ![QGIS Layer Properties](../figs/GISI/Working_with_QGIS_Projects/Layer_Properties.png)
-<!-- Name, projection ,possibly author-->
+
+Layer properties show details like the layer name, style, and coordinate system.
 
 ## Find information about your data
 
+QGIS can tell you about a specific point or object on the map.
+
 ![QGIS Information Icon](../figs/GISI/Working_with_QGIS_Projects/Information.PNG)
 
-Attributes Toolbar: Look for the icon with a small white "i" inside a blue circle.
-Menu Bar: Navigate to View > Identify Features.
-Keyboard Shortcut: Press Ctrl + Shift + I
+### Use Identify Features
 
-### What are the coordinates of **this** point?
+- Click the blue **Identify Features** icon.
+- Click on a point or object on the map.
+- Read the results in the **Identify Results** panel.
 
-The Quick Peek (Status Bar)
-As you move your mouse over the map, look at the Coordinate box in the status bar at the very bottom of the screen.
-Pro Tip: If you see large numbers (e.g., 320500, 5812000), you are seeing Eastings/Northings (MGA). If you see small numbers (e.g., 144.9, -37.8), you are seeing Longitude/Latitude.
+You can also choose **View > Identify Features** or press **Ctrl+Shift+I**.
 
-<!-- - How to find the coordinates of a point on the map (i.e. using the "Identify Features" tool) -->
+### Find coordinates quickly
 
-### What is **here**?
+As you move the mouse over the map, watch the coordinate box in the status bar at the bottom.
 
-Use the Identify Features tool and click the point to see its location under the "Derived" section in the results panel.
+- Large numbers like `320500, 5812000` usually mean Eastings/Northings (MGA).
+- Smaller numbers like `144.9, -37.8` usually mean Longitude/Latitude.
 
-If you want coordinates for an existing object (like a specific building or property boundary):
-Select the Identify Features tool (the blue "i" icon in the top toolbar).
-Click on the object.
-In the Identify Results panel, expand the (Derived) section. You will see coordinates for the exact point you clicked, as well as the "Centroid" (the middle) of the object.
+### Open the attribute table
 
-<!-- - How to find the attributes of a feature at this point (i.e. using the "Identify Features" tool) -->
+The attribute table shows the data behind a layer.
 
-### Where is **this** feature?
+- Right-click a layer in the Layers Panel.
+- Choose **Open Attribute Table**.
+- Or press **F6**.
 
-Open the Attribute Table: Right-click your layer in the Layers Panel and select Open Attribute Table (or hit F6)
-
-Check the official documentation in the QGIS  [https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html](maual).
-
+For more details, see the official QGIS guide:
+[QGIS Attribute Table documentation](https://docs.qgis.org/3.44/en/docs/user_manual/working_with_vector/attribute_table.html)
 
 ::: {.callout-tip title="Your Turn"}
-1. Where do you find a function to pan (move the map left and right, up and down?)
-2. How can you zoom the map? Is there a way to zoom without using the icon?
+1. Where is the pan tool?
+2. How can you zoom without using the toolbar icons?
+3. Use Identify Features on a map point and look at the results.
 :::
-
-
-
+ 
 <!-- - How to find the location of a feature with a given attribute value (i.e. using the "Attributes table" tool) -->
 
 <!-- TODO: Add instructions for opening a sample project -->
