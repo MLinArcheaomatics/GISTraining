@@ -4,25 +4,46 @@ title: Installing and exploring QGIS
 
 ## Download and Install QGIS
 
-Please follow the official documentation of QGIS for installation [here](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/getting_started.html#installing-qgis). 
+QGIS is a free program for working with maps and geographic data.
 
-Go to [qgis.org/download](https://qgis.org/download) and select the version 3.44 (Long Term Release) for your operating system (Windows/Mac).
+1. Open your web browser and go to [qgis.org/download](https://qgis.org/download).
+2. Choose the **Long Term Release** version (3.44) for your operating system.
+3. Follow the on-screen instructions to download and install QGIS.
+
+If you want more details, the official QGIS installation guide is here:
+[QGIS installation guide](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/getting_started.html#installing-qgis).
 
 ![Download QGIS](../figs/GISI/install/download.png)
 
-You can also try the net step in the official guide, *Starting and stopping QGIS*
+> Tip: If you are using a Mac, choose the Mac installer. If you are using Windows, choose the Windows installer.
 
-## Get to know the interface
+When the install finishes, try opening QGIS and then close it again. This is the first step in getting comfortable with the program.
 
-The interface of QGIS is rich and complex. The main documentation of the interface is [here](https://docs.qgis.org/3.44/en/docs/user_manual/introduction/qgis_gui.html).
+## Getting to know the QGIS window
 
-The main parts are:
+QGIS has a lot of tools, but the first view is simple once you know the main parts.
 
 ![Interface](https://docs.qgis.org/3.44/en/_images/startup.png)
 
-1. The Menu bar at the top of the screen, which contains all the functions of QGIS;
-2. The Toolbars, which contain shortcuts to the most commonly used functions (this content can be modified);
-3. The Panels: Browser Panel, which allows you to navigate your files and databases, the the Layers Panel, which shows the layers currently loaded in the project and allows you to manage them, and the Processing Toolbox, which contains a large number of geoprocessing tools;
-4. The Map View (where the map is displayed);
-5. The Status Bar at the bottom of the screen, which shows information about the current map view and the project.
+### The main areas you will see
+
+1. **Menu bar**: the top row of words like File, Edit, and View. It holds most of the commands.
+2. **Toolbars**: buttons under the menu that give quick access to common actions.
+3. **Panels**:
+  - **Browser Panel**: browse files, folders and databases.
+  - **Layers Panel**: manage the map layers you have loaded.
+  - **Processing Toolbox**: a library of tools for working with data.
+4. **Map View**: the big central area where the map appears.
+5. **Status Bar**: the bottom bar that shows useful information about the map and the current view.
+
+### Why this is useful
+
+QGIS may look busy at first, but each part has a simple job:
+
+- The menu and toolbars help you start actions.
+- The panels help you organize files and layers.
+- The map view is where you see the results.
+- The status bar tells you what is happening.
+
+Take a moment to open QGIS, look around, and notice these areas. In the next steps, we will learn how to open a map and add data in a way that feels natural.
 
