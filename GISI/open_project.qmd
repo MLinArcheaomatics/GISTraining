@@ -148,3 +148,8 @@ For more details, see the official QGIS guide:
 <!-- - How QGIS links into live documents (i.e. warning not to move source files around or information on how to update source locations if you do need to move things).
 
 - Metadata and crediting.--> 
+
+**Feedback**
+```{=html}
+<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=z_NbDvQft0aRdlLFOMIqTcB7gT7amOFBtQpSrGmDhYZUOTFFM09JTUMwOUtTSFRRRllEVU9WSDU3TCQlQCN0PWcu&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+```

@@ -89,3 +89,9 @@ Raster data behave like images, and are made of tiny squares (pixels) that cover
 In most QGIS projects, you'll use both types together. For example, you could overlay vector points showing important sites on a raster satellite image to see how they fit into the landscape.
 
 ![The difference between Vector and Raster data](../figs/GISI/Working_With_Files/Raster_Vector.png)
+
+
+**Feedback**
+```{=html}
+<iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=z_NbDvQft0aRdlLFOMIqTcB7gT7amOFBtQpSrGmDhYZUREYyMzAyMzhHUk9WUkFQRDhWTlZDU01INiQlQCN0PWcu&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+```
