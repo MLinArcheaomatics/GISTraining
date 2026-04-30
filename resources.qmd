@@ -1,0 +1,19 @@
+---
+title: Useful resources
+---
+
+## Raster background maps
+
+Copy the urls below and put them in the Browser Panel in QGIS to add them as XYZ Tiles - click on the XYZ Tiles heading to expand it, then right-click and choose "New Connection". Paste the URL in the URL field, give it a name, and click OK.
+
+- OpenStreetMap: https://tile.openstreetmap.org/{z}/{x}/{y}.png
+- Bing Maps (Imagery): http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1   
+- Google Satellite: http://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
+
+## Vector tile background maps
+
+- OpenStreetMap (via ESRI): https://basemaps.arcgis.com/arcgis/rest/services/OpenStreetMap_v2/VectorTileServer  
+
+## ArcGIS REST Server Data
+
+- Victorian Government Data VicMap Lite: https://services-ap1.arcgis.com/P744lA0wf4LlBZ84/arcgis/rest/services/Vicmap_Lite/FeatureServer

@@ -21,6 +21,7 @@ book:
           - GIS_II/georeferencing.qmd
           - GIS_II/data_editing.qmd
           - GIS_II/print_layout.qmd
+      - resources.qmd
 execute: 
   freeze: false
 
