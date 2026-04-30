@@ -16,8 +16,9 @@ A project file usually ends in `.qgz` or `.qgs`.
 
 ## Open a sample project
 
-Download the sample project from this link:
+Download the sample project from this link: [https://www.dropbox.com/scl/fi/kd9wcb0pwgmw6t2yspr7j/GIS_demo_data.zip?rlkey=bzcyhkte37a3c0sygtspeon30&dl=0](https://www.dropbox.com/scl/fi/kd9wcb0pwgmw6t2yspr7j/GIS_demo_data.zip?rlkey=bzcyhkte37a3c0sygtspeon30&dl=0)
 
+Unzip the downloaded file and find the `demo_project.qgz` file inside the `GIS_demo_data` folder. This is a sample QGIS project that you can open to explore how projects work.
 
 To open the sample project:
 
