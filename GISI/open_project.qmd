@@ -16,7 +16,11 @@ A project file usually ends in `.qgz` or `.qgs`.
 
 ## Open a sample project
 
+Download the sample project from this link:
+
+
 To open the sample project:
+
 1. In QGIS, choose **Project > Open**.
 2. Find the `.qgz` or `.qgs` file you want.
 3. Double click the file and let QGIS load the map.
@@ -78,6 +82,8 @@ Open these settings at **Project > Properties** or press **Ctrl+Shift+P**. Explo
 
 ::: {.callout-tip title="Your Turn"}
 Open Project Properties and note the CRS and units. If you are working on Wurundjeri Country, the project may use GDA2020 / MGA Zone 55 (EPSG:7855) or VicGrid (EPSG:7899).
+
+It is possible that you may use the older coordinate system, GDA94 / MGA Zone 55 (EPSG:28355), or GDA94/VicGrid (EPSG:3111). If you are working with older data, it may be in GDA94. 
 :::
 
 ## Layer properties
@@ -92,6 +98,10 @@ To view them:
 ![QGIS Layer Properties](../figs/GISI/Working_with_QGIS_Projects/Layer_Properties.png)
 
 Layer properties show details like the layer name, style, and coordinate system.
+
+You can check the CRS of your layers by right-clicking on a layer and choosing "Properties", then looking at the "Source" tab.
+
+Beyond the two mentioned coordinate systems above, you may also encounter layers in other coordinate systems, such as WGS 84 (EPSG:4326). These should display correctly on top of your other data, but you may need to reproject them for analytical work (discussed later).
 
 ## Find information about your data
 

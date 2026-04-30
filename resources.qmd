@@ -8,7 +8,10 @@ Copy the urls below and put them in the Browser Panel in QGIS to add them as XYZ
 
 - OpenStreetMap: https://tile.openstreetmap.org/{z}/{x}/{y}.png
 - Bing Maps (Imagery): http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1   
-- Google Satellite: http://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
+- Google Satellite: https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}
+- Google Maps: https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}
+- Google Hybrid: https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}
+- Google Terrain: https://mt1.google.com/vt/lyrs=p&x={x}&y={y}&z={z}
 
 ## Vector tile background maps
 
