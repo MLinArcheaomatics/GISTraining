@@ -10,5 +10,147 @@ We also may want to import data from other sources ( a GPS), or modify data prov
 
 ## Collecting geometries
 
+Geometries are the shapes you put on your map: points, lines, and polygons. When we talk about collecting geometries, we're just adding new stuff to your layer or tweaking what's already there.
+
+### Why collect geometries?
+
+You'll collect geometries whenever you're trying to:
+
+- Pinpoint a spot for a site, facility, or something important.
+- Draw a boundary for an area (that's a polygon).
+- Follow a path, road, or river (that's a line).
+- Fix an existing feature with new information.
+
+### How to start editing a layer
+
+Before you can add or change geometries, you need to put the layer into edit mode.
+
+1. In the **Layers panel**, right-click the layer you want to edit.
+2. Choose **Toggle Editing**.
+3. You will see a pencil icon next to the layer name when editing is active.
+
+### Adding a point (location)
+
+Points are used for places: water points, shelters, cultural sites, service locations.
+
+1. In the toolbar, click the **Add Point Feature** button (it looks like a dot with a plus sign).
+2. Click on the map where you want to place the point.
+3. A form will open for you to fill in details. Click **OK** to save.
+4. The point appears on the map.
+
+### Adding a line (path or boundary)
+
+Lines are great for tracing paths, roads, rivers, or borders.
+
+1. In the toolbar, click the **Add Line Feature** button (it looks like a line with a plus sign).
+2. Click once for each location along the line, building it point by point.
+3. Right-click or press Enter to finish the line.
+4. A form opens for details. Click **OK** to save.
+
+### Adding a polygon (area)
+
+Polygons are perfect for outlining areas like land parcels, regions, protected zones, or buildings.
+
+1. In the toolbar, click the **Add Polygon Feature** button (it looks like a box with a plus sign).
+2. Click once for each corner of the area, building the shape.
+3. Right-click or press Enter to finish.
+4. A form opens for details. Click **OK** to save.
+
+### Editing an existing geometry
+
+If a feature is in the wrong place or the shape needs to change:
+
+1. In the toolbar, click the **Vertex Tool** button.
+2. Click on the feature you want to edit.
+3. You will see small squares (vertices) that mark the shape.
+4. Drag a vertex to move it, or right-click a vertex to add or delete it.
+5. When done, save your changes.
+
+### Saving your edits
+
+When you have finished adding or changing features:
+
+1. In the toolbar, click the **Save Layer Edits** button (it looks like a disk).
+2. Or use the menu: **Edit** > **Save Edits**.
+3. When you are completely done, right-click the layer again and **Toggle Editing** to turn off edit mode.
+
 ## Editing attributes
+
+Attributes are the details tied to each feature. A point for a water well might include the name, how deep it is, and when it was put in. A boundary area could have the region name and its size.
+
+### What are attributes?
+
+Every feature on a map has:
+
+- A **geometry**: the shape and location (point, line, polygon).
+- **Attributes**: the information about that feature stored in a table.
+
+### Opening the attribute table
+
+The attribute table shows all the information for every feature in a layer.
+
+1. In the **Layers panel**, right-click the layer.
+2. Choose **Open Attribute Table**.
+3. A table appears showing each feature as a row and each attribute as a column.
+
+### Adding a new attribute field
+
+You might need to add a new column to collect new information.
+
+1. Open the Attribute Table.
+2. Click the **New Field** button (it looks like a plus sign in the toolbar).
+3. Give the field a name (for example, "Condition" or "Population").
+4. Choose the data type:
+   - **Text** for words or descriptions.
+   - **Number** for counts or measurements.
+   - **Date** for calendar dates.
+5. Click **OK**.
+
+### Filling in attributes
+
+You can edit attributes in two ways.
+
+**Method 1: In the Attribute Table**
+
+1. Open the Attribute Table.
+2. Find the row for the feature you want to edit.
+3. Click on the cell you want to change and type the information.
+4. Press Enter to save.
+
+**Method 2: In a Form (often easier)**
+
+1. Make sure the layer is in edit mode.
+2. Click on the feature in the map.
+3. A form pops up showing all the attributes for that feature.
+4. Fill in the fields.
+5. Click **OK** to save.
+
+### Editing attributes for multiple features
+
+If you need to update the same attribute for many features:
+
+1. Open the Attribute Table.
+2. Click the column header for the attribute you want to change.
+3. Right-click and choose **Field Calculator**.
+4. Write a simple rule (for example, "Status = 'Active'" or "Year = 2024").
+5. Click **OK** to apply to all selected features.
+
+### Best practices for attribute data
+
+Good attribute data is clear and useful.
+
+- Use consistent names: "Main Road" not "main road" or "MainRoad".
+- Use consistent format for dates: "2024-05-06" or "06/05/2024" (pick one and stick with it).
+- Use short, clear descriptions in text fields.
+- Do not leave important fields blank if possible.
+- Review your data before saving. Ask a colleague to check: does the information make sense?
+
+### Saving attribute changes
+
+When you've finished editing attributes:
+
+1. Save the layer edits by clicking the **Save** button or using **Edit** > **Save Edits**.
+2. Turn off edit mode by right-clicking the layer and **Toggle Editing**.
+3. The data is now saved in your project.
+
 
