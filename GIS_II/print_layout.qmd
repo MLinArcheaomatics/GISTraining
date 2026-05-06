@@ -8,7 +8,7 @@ Create a New Layout
 
 ![Print Layout](../figs/GISII/Prepairing_maps/Print_Layout.png)
 
-Go to Project > New Print Layout... or press Ctrl + P.Name It: Enter a descriptive name for your layout. You can have multiple layouts within a single project.
+Go to Project > New Print Layout... or press Ctrl + P. Name It: Enter a descriptive name for your layout. You can have multiple layouts within a single project.
 
 Configure Page Settings
 
@@ -19,20 +19,49 @@ Size and Orientation: In the Item Properties panel on the right, choose standard
 ![Page Properties](../figs/GISII/Prepairing_maps/Page_Properties.png)
 
 ## Adding map content (BOLTSS)
+![Adding Map Content via the Toolbox Toolbar](../figs/GISII/Prepairing_maps/Map_Content.png)
 
-### Adding the maps
+### Adding the maps 
+![](../figs/GISII/Prepairing_maps/Add_Map.png)
+Select the Add Map icon from the left toolbar or go to Add Item > Add Map.
+Drawing the Frame: Click and drag on the layout canvas to define the rectangular area where your map will appear.
 
 ### Adding map *B*order
 
-### Adding map *O*rientation (north arrow or grid)
+In the Item Properties panel on the right, scroll down to the Frame section. Enable the Border.
+Customise Appearance: Colour, Thickness and Join Style.
+
+![Adding a Frame](../figs/GISII/Prepairing_maps/Map_Frame.png)
+
+### Adding map *O*rientation (north arrow or grid) 
+![](../figs/GISII/Prepairing_maps/Add_North.png)
+Select the Add North Arrow from the Toolbar
+Placement: Click and drag on the layout canvas to draw the frame where the arrow will appear. By default a simple arrow is inserted that is synced to the rotation of your main map frame.
+The North Arrow can be customised in many different ways; symbols, arrows, colours, stroke, fill and custom SVGs.
 
 ### Adding *O*verview map (optional)
+[YouTube Guide](https://www.youtube.com/watch?v=Q0Z1I0wHFA0)
 
-### Adding map *L*egend
+1. Ensure your primary map (e.g., "Map 0") is correctly positioned and scaled. Add Secondary Map: Use the Add Map tool to draw a smaller box, often in a corner, for your overview.
+Adjust Overview Scale: Use the Move Item Content tool or manually change the Scale in the Item Properties panel so this second map shows a much larger area (e.g., the whole country or region).
+
+2. Select the Overview Map: Click on the small map frame you just created. Locate "Overviews". In its Item Properties panel, scroll down and expand the Overviews section.
+Add New Overview: Click the green plus (+) button to add "Overview 1". In the Map frame dropdown menu, select your primary detailed map (usually Map 0 or Map 1). A colored rectangle (the extent indicator) will now appear on the overview map, representing the area shown in your main map.
+
+3. Customize the Indicator
+Click on Frame style to change the fill color, outline thickness, or transparency of the extent rectangle. Many cartographers use a transparent fill with a bold red stroke for visibility. Center on Overview: Check this box if you want the overview map to automatically re-center itself whenever you move the main map.
+
+4. Lock Main Map: Select your primary map and check Lock layers and Lock styles for layers in the Main Properties.
+Lock Overview: Repeat this for the overview map. This allows you to have different symbols (like simplified boundaries) on the overview without affecting the detailed main map.
+
+### Adding map *L*egend 
+![](../figs/GISII/Prepairing_maps/Add_Legend.png)
 
 ### Adding *T*ext and other annotations (*S*ources)
+![](../figs/GISII/Prepairing_maps/Add_Text.png)
 
-### Adding a *S*cale bar
+### Adding a *S*cale bar 
+![](../figs/GISII/Prepairing_maps/Add_Scale.png)
 
 
 ## Tricks: Using map themes
