@@ -4,17 +4,16 @@ title: Preparing maps for printing
 
 ## Setting up a print layout
 
-Create a New Layout
+### Create a New Layout
 
 ![Print Layout](../figs/GISII/Prepairing_maps/Print_Layout.png)
 
-Go to Project > New Print Layout... or press Ctrl + P. Name It: Enter a descriptive name for your layout. You can have multiple layouts within a single project.
+Go to **Project > New Print Layout**, or press **Ctrl + P**. Name It: Enter a descriptive name for your layout. You can have multiple layouts within a single project.
 
-Configure Page Settings
+### Configure Page Settings
 
-Access Properties: Right-click anywhere on the blank white canvas and select Page Properties (Alter these to suit your requirements).
-
-Size and Orientation: In the Item Properties panel on the right, choose standard sizes like A4 or A3, or enter custom dimensions. Set the orientation to Landscape or Portrait.
+- Access Properties: Right-click anywhere on the blank white canvas and select **Page Properties** (Alter these to suit your requirements).
+- Size and Orientation: In the Item Properties panel on the right, choose standard sizes like A4 or A3, or enter custom dimensions. Set the orientation to Landscape or Portrait.
 
 ![Page Properties](../figs/GISII/Prepairing_maps/Page_Properties.png)
 
@@ -65,7 +64,7 @@ In the Item Properties panel, there are options for customisation.
 ![Legend Item Properties](../figs/GISII/Prepairing_maps/Legend_Item_Properties.png)
 Some useful properties:
 
-1. Renaming Items: Double-click an item, or click the Edit button, to change its name.
+1. **Renaming Items**: Double-click an item, or click the Edit button, to change its name.
 
 2. Use the plus (+) or minus (-) buttons to add or remove layers from the legend.
 
