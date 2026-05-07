@@ -134,11 +134,11 @@ You can link different map frames in a single layout to different themes. For ex
 
 ### Re-style your Overview map using a different map theme
 
-1. Set Up the Overview Style: In your main Layers panel, turn on only the layers you want to see in the overview (e.g., a simple base map and your study area outline).Save the New Theme.
+1. Set Up the Overview Style: In your main Layers panel, turn on only the layers you want to see in the overview (e.g., a simple base map and your study area outline). **Save the New Theme.**
 
-2. Click the Manage Map Themes icon (eye icon) at the top of the Layers panel.Select Add Theme... and name it (e.g., "Overview_Style").
+2. Click the Manage Map Themes icon (eye icon) at the top of the Layers panel. **Select Add Theme**... and name it (e.g., "Overview_Style").
 
-3. Apply to Overview Map: Open your Print Layout and select the map item acting as your overview.In the Item Properties panel, scroll to the Layers section.Tick Follow map theme and select "Overview_Style" from the dropdown menu.
+3. Apply to Overview Map: Open your Print Layout and select the map item acting as your overview. In the Item Properties panel, scroll to the Layers section. Tick Follow map theme and select "Overview_Style" from the dropdown menu.
 
 
 ## Exporting a map for printing
