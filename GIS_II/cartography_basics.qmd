@@ -64,7 +64,7 @@ Size helps show importance or scale.
 2. Use the arrows to make the symbol bigger or smaller.
 3. For layers with many points, lines or areas, you can automatically set size by value using **Graduated** or **Rule-based** symbology.
 
-![Where to select size.](../figs/GISII/basic_map_making/stroke_width_select.png)
+![Where to select size.](../figs/GISII/basic_map_making/point_size_select.png)
 
 Examples:
 
@@ -84,6 +84,18 @@ Different shapes can make your map easier to read.
 
 Use shapes that feel right for the information. For example, a point for a water source can use a circle, while a cultural site might use a different symbol to stand out.
 
+**Extra for Experts** 
+
+If you want to download different icons, have a look at the website [SVG Repo](https://www.svgrepo.com), which is a free online repository of icons.
+1. Search and choose an icon you like to download. 
+2. Save the icon in your data folder for this project. Make sure to save it in the colour you want it to show as on the map. 
+3. In QGIS open the point layer **Properties** > **Symbology**
+4. Click on the **Symbology Layer Type** drop-down menu and choose **SVG Marker**. 
+5. QGIS will load the inbuilt SVG markers, scroll down to the bottom of the dialogue box and click on the button with three dots. 
+6. Navigate to where you saved your SVG icon and click Open.
+
+If you want to make your own icons in Inkscape, you can follow this online tutorial [here](https://www.spatialnasir.com/2024/04/how-to-create-custom-svg-marker-qgis.html).
+
 ### How to change the transparency of a layer
 
 Transparency helps layers work together without covering each other.
@@ -94,10 +106,7 @@ Transparency helps layers work together without covering each other.
 
 ![Where to select opacity.](../figs/GISII/basic_map_making/opacity_select.png)
 
-When to use transparency:
-
-- When you want a coloured area to show the land beneath it.
-- When you want several layers visible at once without the map becoming too busy.
+Change or edit transparency when you want a coloured area to show the land beneath it or when you want several layers visible at once without the map becoming too busy.
 
 ## Good styling practice
 
@@ -105,6 +114,6 @@ When you present a map to colleagues or community members, keep these ideas in m
 
 - Keep the design simple. Too many colours, symbols or lines can confuse the message.
 - Use labels and a legend that explain symbols in everyday language.
-- Choose colours that are easy to read for everyone, including being colour blind friendly.
+- Choose colours that are easy to read for everyone, including being colour-blind friendly.
 - Group related layers with similar styles so the map feels consistent.
 - Ask a colleague, community member or client what they notice first. If they notice the wrong thing, adjust the style.

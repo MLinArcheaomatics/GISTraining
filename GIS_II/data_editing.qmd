@@ -80,10 +80,7 @@ Attributes are the details tied to each feature. A point for a water well might 
 
 ### What are attributes?
 
-Every feature on a map has:
-
-- A **geometry**: the shape and location (point, line, polygon).
-- **Attributes**: the information about that feature stored in a table.
+Every feature on a map has two things: a **geometry**, which is its shape and location (point, line, polygon), and **attributes**, which is information about that feature stored in a table.
 
 ### Opening the attribute table
 
@@ -138,12 +135,11 @@ If you need to update the same attribute for many features:
 ### Best practices for attribute data
 
 Good attribute data is clear and useful.
-
-- Use consistent names: "Main Road" not "main road" or "MainRoad".
-- Use consistent format for dates: "2024-05-06" or "06/05/2024" (pick one and stick with it).
-- Use short, clear descriptions in text fields.
-- Do not leave important fields blank if possible.
-- Review your data before saving. Ask a colleague to check: does the information make sense?
+Use consistent names: "Main Road" not "main road" or "MainRoad".
+Use consistent format for dates: "2024-05-06" or "06/05/2024" (pick one and stick with it).
+Use short, clear descriptions in text fields.
+Do not leave important fields blank if possible.
+Review your data before saving by asking a colleague to check: does the information make sense?
 
 ### Saving attribute changes
 
