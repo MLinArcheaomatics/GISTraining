@@ -26,8 +26,10 @@ You'll collect geometries whenever you're trying to:
 Before you can add or change geometries, you need to put the layer into edit mode.
 
 1. In the **Layers panel**, right-click the layer you want to edit.
-2. Choose **Toggle Editing**.
+2. Choose **Toggle Editing** or select the Pencil icon in the toolbox bar.
 3. You will see a pencil icon next to the layer name when editing is active.
+
+![Click the pencil to start editing a layer.](../figs/GISII/data_editing/edit_button_location.png)
 
 ### Adding a point (location)
 
@@ -38,6 +40,8 @@ Points are used for places: water points, shelters, cultural sites, service loca
 3. A form will open for you to fill in details. Click **OK** to save.
 4. The point appears on the map.
 
+![Add a point.](../figs/GISII/data_editing/add_point.png)
+
 ### Adding a line (path or boundary)
 
 Lines are great for tracing paths, roads, rivers, or borders.
@@ -46,6 +50,8 @@ Lines are great for tracing paths, roads, rivers, or borders.
 2. Click once for each location along the line, building it point by point.
 3. Right-click or press Enter to finish the line.
 4. A form opens for details. Click **OK** to save.
+
+![Add a line.](../figs/GISII/data_editing/add_line.png)
 
 ### Adding a polygon (area)
 
@@ -56,6 +62,8 @@ Polygons are perfect for outlining areas like land parcels, regions, protected z
 3. Right-click or press Enter to finish.
 4. A form opens for details. Click **OK** to save.
 
+![Add a polygon.](../figs/GISII/data_editing/add_polygon.png)
+
 ### Editing an existing geometry
 
 If a feature is in the wrong place or the shape needs to change:
@@ -65,6 +73,8 @@ If a feature is in the wrong place or the shape needs to change:
 3. You will see small squares (vertices) that mark the shape.
 4. Drag a vertex to move it, or right-click a vertex to add or delete it.
 5. When done, save your changes.
+
+![Use the vertex tool to change a location or shape.](../figs/GISII/data_editing/vertex_tool.png)
 
 ### Saving your edits
 
@@ -102,6 +112,8 @@ You might need to add a new column to collect new information.
    - **Number** for counts or measurements.
    - **Date** for calendar dates.
 5. Click **OK**.
+
+![Adding a new column to the Attributes Table.](../figs/GISII/data_editing/new_att_feild.png)
 
 ### Filling in attributes
 
