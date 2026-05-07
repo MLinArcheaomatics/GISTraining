@@ -144,15 +144,6 @@ If you need to update the same attribute for many features:
 4. Write a simple rule (for example, "Status = 'Active'" or "Year = 2024").
 5. Click **OK** to apply to all selected features.
 
-### Best practices for attribute data
-
-Good attribute data is clear and useful.
-Use consistent names: "Main Road" not "main road" or "MainRoad".
-Use consistent format for dates: "2024-05-06" or "06/05/2024" (pick one and stick with it).
-Use short, clear descriptions in text fields.
-Do not leave important fields blank if possible.
-Review your data before saving by asking a colleague to check: does the information make sense?
-
 ### Saving attribute changes
 
 When you've finished editing attributes:
@@ -161,4 +152,9 @@ When you've finished editing attributes:
 2. Turn off edit mode by right-clicking the layer and **Toggle Editing**.
 3. The data is now saved in your project.
 
-
+> Good attribute data is clear and useful. 
+>   - Use consistent names: "Main Road" not "main road" or "MainRoad".
+>   - Use consistent format for dates: "2024-05-06" or "06/05/2024" (pick one and stick with it).
+>   - Use short, clear descriptions in text fields.
+>   - Do not leave important fields blank if possible.
+>   - Review your data before saving by asking a colleague to check: does the information make sense?
