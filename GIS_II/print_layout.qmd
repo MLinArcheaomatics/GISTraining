@@ -22,7 +22,8 @@ Go to **Project > New Print Layout**, or press **Ctrl + P**. Name It: Enter a de
 
 ### Adding the maps 
 ![](../figs/GISII/Prepairing_maps/Add_Map.png)
-Select the Add Map icon from the left toolbar or go to Add Item > Add Map.
+Select the Add Map icon from the toolbar
+**Add Item > Add Map.**
 Drawing the Frame: Click and drag on the layout canvas to define the rectangular area where your map will appear.
 
 ### Adding map *B*order
@@ -35,7 +36,7 @@ Customise Appearance: Colour, Thickness and Join Style.
 ### Adding map *O*rientation (north arrow or grid) 
 ![](../figs/GISII/Prepairing_maps/Add_North.png)
 Select the Add North Arrow from the Toolbar.
-
+**Add Item > Add North Arrow.**
 Click and drag on the layout canvas to draw the frame where the arrow will appear. By default a simple arrow is inserted that is synced to the rotation of your main map frame.
 The North Arrow can be customised in many different ways; symbols, arrows, colours, stroke, fill and custom SVGs.
 
@@ -56,17 +57,18 @@ Lock Overview: Repeat this for the overview map. This allows you to have differe
 
 ### Adding map *L*egend 
 ![](../figs/GISII/Prepairing_maps/Add_Legend.png)
-Click the Legend button in the toolbar and drag on the canvas to place it. 
+Select the Add Legend from the Toolbar. Drag on to the canvas to place it.
+**Add Item > Add Legend.**
 In the Item Properties panel (right side), uncheck Auto update to place into manual mode editing.
 ![Auto update](../figs/GISII/Prepairing_maps/Legend_Auto_Update.png)
 In the Item Properties panel, there are options for customisation. 
 
 ![Legend Item Properties](../figs/GISII/Prepairing_maps/Legend_Item_Properties.png)
-Some useful properties:
+Useful properties to change:
 
-1. **Renaming Items**: Double-click an item, or click the Edit button, to change its name.
+1. Renaming Items: Double-click an layer within the legend items, or click the Edit button, to change its name. Tidying up layer names.
 
-2. Use the plus (+) or minus (-) buttons to add or remove layers from the legend.
+2. Use the plus (+) or minus (-) buttons to add or remove layers from the legend. Some layers are not needed.
 
 3. Filter by Map: Check Only show items inside the linked map to display only active map features.
 
@@ -74,7 +76,8 @@ Some useful properties:
 
 ### Adding *T*ext and other annotations (*S*ources)
 ![](../figs/GISII/Prepairing_maps/Add_Text.png)
-Add Text button in the toolbar and click/drag on the canvas to place it.
+Add Label button in the toolbar and click/drag on the canvas to place it.
+**Add Item > Add Label.**
 
 1. You can replace the default "Lorem Ipsum" text with your own title or descriptive text.
 
@@ -87,6 +90,7 @@ You can create Annotation Layers that stay with your project rather than being t
 ### Adding a *S*cale bar 
 ![](../figs/GISII/Prepairing_maps/Add_Scale.png)
 Click Add Scale Bar icon to the print layout and drag on the layout canvas.
+**Add Item > Add Scale Bar.**
 
 1. In the Item Properties panel, ensure the scale bar is linked to the correct map (e.g., "Map 1"). This creates a dynamic link so the scale updates automatically if you zoom or pan.
 
