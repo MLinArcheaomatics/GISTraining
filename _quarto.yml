@@ -4,7 +4,7 @@ project:
 
 book:
   title: "Intro to GIS Training (for Cultural Heritage)"
-  author: "Martin Tomko and Brian Armstrong"
+  author: "Martin Tomko and Brian Armstrong and Carolyne Nel"
   chapters:
       - index.qmd
       - about.qmd
