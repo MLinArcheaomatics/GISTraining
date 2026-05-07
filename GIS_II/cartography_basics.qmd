@@ -87,6 +87,9 @@ Use shapes that feel right for the information. For example, a point for a water
 **Extra for Experts** 
 
 If you want to download different icons, have a look at the website [SVG Repo](https://www.svgrepo.com), which is a free online repository of icons.
+
+![A search for a tree icon on SVG Repo.](../figs/GISII/basic_map_making/svg_repo.png)
+
 1. Search and choose an icon you like to download. 
 2. Save the icon in your data folder for this project. Make sure to save it in the colour you want it to show as on the map. 
 3. In QGIS open the point layer **Properties** > **Symbology**
@@ -94,7 +97,7 @@ If you want to download different icons, have a look at the website [SVG Repo](h
 5. QGIS will load the inbuilt SVG markers, scroll down to the bottom of the dialogue box and click on the button with three dots. 
 6. Navigate to where you saved your SVG icon and click Open.
 
-If you want to make your own icons in Inkscape, you can follow this online tutorial [here](https://www.spatialnasir.com/2024/04/how-to-create-custom-svg-marker-qgis.html).
+If you want to make your own icons in Inkscape, you can follow an online tutorial [here](https://www.spatialnasir.com/2024/04/how-to-create-custom-svg-marker-qgis.html).
 
 ### How to change the transparency of a layer
 
